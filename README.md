@@ -7,3 +7,4 @@ APP名稱：遊戲賓果版面推算
 >2.版面能自己更動
 
 Wireframe 圖:
+![image]https://github.com/kagamiyou/bingo/blob/master/%E8%B3%93%E6%9E%9C%E7%89%88%E9%9D%A2.jpg
