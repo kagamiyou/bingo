@@ -1,0 +1,10 @@
+D:\GITHIB\LimitBingo\Bingo\Bingo\bin\Debug\Bingo.exe.config
+D:\GITHIB\LimitBingo\Bingo\Bingo\bin\Debug\Bingo.exe
+D:\GITHIB\LimitBingo\Bingo\Bingo\bin\Debug\Bingo.pdb
+D:\GITHIB\LimitBingo\Bingo\Bingo\obj\Debug\Bingo.csprojResolveAssemblyReference.cache
+D:\GITHIB\LimitBingo\Bingo\Bingo\obj\Debug\Bingo.Form1.resources
+D:\GITHIB\LimitBingo\Bingo\Bingo\obj\Debug\Bingo.Properties.Resources.resources
+D:\GITHIB\LimitBingo\Bingo\Bingo\obj\Debug\Bingo.csproj.GenerateResource.cache
+D:\GITHIB\LimitBingo\Bingo\Bingo\obj\Debug\Bingo.csproj.CoreCompileInputs.cache
+D:\GITHIB\LimitBingo\Bingo\Bingo\obj\Debug\Bingo.exe
+D:\GITHIB\LimitBingo\Bingo\Bingo\obj\Debug\Bingo.pdb
