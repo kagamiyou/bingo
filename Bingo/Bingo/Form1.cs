@@ -89,7 +89,7 @@ namespace Bingo
         private void button12_Click(object sender, EventArgs e)
         {
             bingo4.Items.Add("Sadone");
-            bingo20.Items.Add("Subaru");
+            bingo20.Items.Add("Sadone");
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -117,7 +117,44 @@ namespace Bingo
 
         private void button19_Click(object sender, EventArgs e)
         {
-            bingo10.Items.Add("Sadone");
+            bingo10.Items.Add("Misaki");
+        }
+
+        private void clear_Click(object sender, EventArgs e)
+        {
+            bingo1.Items.Clear();
+            bingo2.Items.Clear();
+            bingo3.Items.Clear();
+            bingo4.Items.Clear();
+            bingo5.Items.Clear();
+            bingo6.Items.Clear();
+            bingo7.Items.Clear();
+            bingo8.Items.Clear();
+            bingo9.Items.Clear();
+            bingo10.Items.Clear();
+            bingo11.Items.Clear();
+            bingo12.Items.Clear();
+            bingo14.Items.Clear();
+            bingo15.Items.Clear();
+            bingo16.Items.Clear();
+            bingo17.Items.Clear();
+            bingo18.Items.Clear();
+            bingo19.Items.Clear();
+            bingo20.Items.Clear();
+            bingo21.Items.Clear();
+            bingo22.Items.Clear();
+            bingo23.Items.Clear();
+            bingo24.Items.Clear();
+            bingo25.Items.Clear();
+            ans.Items.Clear();
+        }
+
+        private void start_Click(object sender, EventArgs e)
+        {
+            ans.Items.Add("共有12條結果,");
+            ans.Items.Add("必須選: Miki、Haruka、Subaru、Nozomi、Yuri、Kurumi、");
+            ans.Items.Add("Asuha、Anko、Hinata、Sadone、Kaede、Michelle、Urara、");
+            ans.Items.Add("Kanon、Shiho、Misaki");
         }
     }
 }

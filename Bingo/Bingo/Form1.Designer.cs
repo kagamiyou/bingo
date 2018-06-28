@@ -297,6 +297,7 @@
             this.start.TabIndex = 46;
             this.start.Text = "開始";
             this.start.UseVisualStyleBackColor = true;
+            this.start.Click += new System.EventHandler(this.start_Click);
             // 
             // clear
             // 
@@ -306,6 +307,7 @@
             this.clear.TabIndex = 47;
             this.clear.Text = "清除";
             this.clear.UseVisualStyleBackColor = true;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
             // 
             // ans
             // 
