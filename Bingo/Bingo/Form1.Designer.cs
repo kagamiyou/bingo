@@ -110,6 +110,7 @@
             this.button2.TabIndex = 27;
             this.button2.Text = "Haruka";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -119,6 +120,7 @@
             this.button3.TabIndex = 28;
             this.button3.Text = "Subaru";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -128,6 +130,7 @@
             this.button4.TabIndex = 29;
             this.button4.Text = "Nozomi";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -137,6 +140,7 @@
             this.button5.TabIndex = 30;
             this.button5.Text = "Yuri";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -146,6 +150,7 @@
             this.button6.TabIndex = 35;
             this.button6.Text = "Kurumi";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -155,6 +160,7 @@
             this.button7.TabIndex = 34;
             this.button7.Text = "Asuha";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -173,6 +179,7 @@
             this.button9.TabIndex = 32;
             this.button9.Text = "Anko";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -191,6 +198,7 @@
             this.button11.TabIndex = 36;
             this.button11.Text = "Hinata";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -200,6 +208,7 @@
             this.button12.TabIndex = 37;
             this.button12.Text = "Sadone";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -209,6 +218,7 @@
             this.button13.TabIndex = 38;
             this.button13.Text = "Kaede";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -218,6 +228,7 @@
             this.button14.TabIndex = 39;
             this.button14.Text = "Michelle";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -236,6 +247,7 @@
             this.button16.TabIndex = 41;
             this.button16.Text = "Urara";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -245,6 +257,7 @@
             this.button17.TabIndex = 42;
             this.button17.Text = "Kanon";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -254,6 +267,7 @@
             this.button18.TabIndex = 43;
             this.button18.Text = "Shiho";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -263,6 +277,7 @@
             this.button19.TabIndex = 44;
             this.button19.Text = "Misaki";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // fivelinecheck
             // 
