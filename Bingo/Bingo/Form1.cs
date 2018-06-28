@@ -12,9 +12,16 @@ namespace Bingo
 {
     public partial class Form1 : Form
     {
+        List<ListBox> girl = new List<ListBox>();
+        int count = 23;
         public Form1()
         {
             InitializeComponent();
+            girl = new List<ListBox>();
+            foreach(ListBox l in this.Controls.OfType<ListBox>())
+            {
+                girl.Add(l);
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -34,93 +41,107 @@ namespace Bingo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            bingo11.Items.Add("Miki");
-            bingo18.Items.Add("Miki");
+            Update("Miki");
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            bingo9.Items.Add("Kanon");
-            bingo21.Items.Add("Kanon");
+            Update("Kanon");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            bingo15.Items.Add("Haruka");
+            Update("Haruka");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            bingo7.Items.Add("Subaru");
-            bingo19.Items.Add("Subaru");
+            Update("Subaru");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            bingo14.Items.Add("Nozomi");
+            Update("Nozomi");
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            bingo17.Items.Add("Yuri");
+            Update("Yuri");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            bingo5.Items.Add("Kurumi");
-            bingo24.Items.Add("Kurumi");
+            Update("Kurumi");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            bingo8.Items.Add("Asuha");
+            Update("Asuha");
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            bingo2.Items.Add("Anko");
+            Update("Anko");
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            bingo3.Items.Add("Hinata");
+            Update("Hinata");
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            bingo4.Items.Add("Sadone");
-            bingo20.Items.Add("Sadone");
+            Update("Sadone");
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            bingo12.Items.Add("Kaede");
-            bingo25.Items.Add("Kaede");
+            Update("Kaede");
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            bingo1.Items.Add("Michelle");
-            bingo22.Items.Add("Michelle");
+            Update("Michelle");
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            bingo16.Items.Add("Urara");
+            Update("Urara");
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            bingo6.Items.Add("Shiho");
-            bingo23.Items.Add("Shiho");
+            Update("Shiho");
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            bingo10.Items.Add("Misaki");
+            Update("Misaki");
         }
 
-        private void clear_Click(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Update("Renge");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Update("Sakura");
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Update("Kokomi");
+        }
+       
+
+        private void Update(string s)
+        {
+            girl[count].Items.Add(s);
+            count--;
+        }
+
+   private void clear_Click(object sender, EventArgs e)
         {
             bingo1.Items.Clear();
             bingo2.Items.Clear();

@@ -170,6 +170,7 @@
             this.button8.TabIndex = 33;
             this.button8.Text = "Renge";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -189,6 +190,7 @@
             this.button10.TabIndex = 31;
             this.button10.Text = "Sakura";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -238,6 +240,7 @@
             this.button15.TabIndex = 40;
             this.button15.Text = "Kokomi";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
